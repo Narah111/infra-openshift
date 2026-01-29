@@ -41,7 +41,7 @@ spec:
       name: postgres
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: "gp3"
+      storageClassName: "lvms-vg1"
       resources:
         requests:
           storage: 1Gi
