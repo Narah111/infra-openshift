@@ -22,3 +22,6 @@ spec:
         ports:
         - name: http
           containerPort: 8080
+        env:
+        - name: APP_VERSION
+          value: "1.0.28-aacc61b"
