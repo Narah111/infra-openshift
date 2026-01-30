@@ -17,11 +17,11 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ghcr.io/narah111/ocp-guestbook/frontend:1.0.31-1c630d0
+        image: ghcr.io/narah111/ocp-guestbook/frontend:1.0.32-480ad6d
         imagePullPolicy: Always
         ports:
         - name: http
           containerPort: 8080
         env:
         - name: APP_VERSION
-          value: "1.0.31-1c630d0"
+          value: "1.0.32-480ad6d"
