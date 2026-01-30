@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ghcr.io/narah111/ocp-guestbook/frontend:1.0.25-2a76d85
+        image: ghcr.io/narah111/ocp-guestbook/frontend:1.0.26-ab88e28
         imagePullPolicy: Always
         ports:
         - name: http
